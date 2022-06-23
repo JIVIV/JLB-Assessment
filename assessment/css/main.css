@@ -1,3 +1,12 @@
+.watermark {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url("../images/SPLASH WATERMARK.png");
+  background-size: cover;
+  z-index: -2;
+}
+
 .hero-img {
   position: absolute;
   top: 0;
@@ -12,6 +21,7 @@
 body {
   margin: 0em;
   font-family: "Montserrat";
+  width: 100%;
 }
 
 section.hero {
@@ -21,6 +31,7 @@ section.hero h1 {
   color: #de041c;
   font-size: 8rem;
   font-weight: 900;
+  margin-top: 2em;
   margin-left: 4em;
 }
 section.hero .subhead {
@@ -33,13 +44,33 @@ section.hero .hero-words-1 {
   font-size: 1.4em;
   font-weight: 500;
   margin-top: -3.4em;
-  margin-left: 25em;
-  margin-right: 19em;
+  margin-left: 24.5em;
 }
 section.hero .hero-words-2 {
   font-size: 1.4em;
   font-weight: 500;
   margin-top: -1em;
-  margin-left: 27.75em;
-  margin-right: 19em;
+  margin-left: 27.28em;
+}
+
+section.gallery {
+  color: black;
+}
+section.gallery .feature1 {
+  margin-top: 29em;
+}
+section.gallery .feature2 {
+  margin-left: 36.4em;
+  margin-top: -16em;
+}
+section.gallery .feature3 {
+  margin-left: 36.4em;
+  margin-top: 0.5em;
+}
+section.gallery .feature4 {
+  margin-top: -13.8em;
+  margin-left: 11.6em;
+}
+section.gallery .feature5 {
+  margin-top: -18.35em;
 }/*# sourceMappingURL=main.css.map */
