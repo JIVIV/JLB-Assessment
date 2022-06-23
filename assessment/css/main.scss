@@ -18,6 +18,7 @@ body {
 
 section.hero {
     color: white;
+    width: 100%;
     h1 {
 
         color: #de041c;
@@ -49,8 +50,9 @@ section.hero {
 
 section.gallery {
     color: black;
+    width: 100%;
     .feature1 {
-        margin-top: 29em;
+        margin-top: 26.1em;
     }
     .feature2 {
         margin-left: 36.4em;
@@ -125,7 +127,7 @@ section.gallery {
 
 section.embed-container {
     position: absolute;
-    margin-top: -53em;
+    margin-top: -60.5em;
     margin-left: 36.4em;
     box-shadow: 0em 0em 1em;
     z-index: 6;
