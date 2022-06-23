@@ -1,11 +1,3 @@
-.watermark {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background: url('../images/SPLASH\ WATERMARK.png');
-    background-size: cover;
-    z-index: -2;
-}
 .hero-img {
     position: absolute;
     top: 0;
@@ -14,7 +6,7 @@
     background-size: cover;
     
     width: 100%;
-    height: 100vh;
+    height: 93vh;
     z-index: -1;
 }
 
@@ -52,6 +44,7 @@ section.hero {
         margin-top: -1em;
         margin-left: 27.28em;
     }
+    
 }
 
 section.gallery {
@@ -74,7 +67,66 @@ section.gallery {
     .feature5 {
         margin-top: -18.35em;
     }
-    .feature6 {
-        
+    .splash {
+        opacity: .06;
+        margin-top: -54em;
+        margin-left: 66.71em;
     }
+    .red-bar {
+        position: absolute;
+        background-color: #de041c;
+        width: 100%;
+        height: 7vh;
+        margin-top: -51em;
+        z-index: 4;
+    }
+    .black-bar {
+        position: absolute;
+        background-color: black;
+        width: 43.27%;
+        height: .5vh;
+        margin-top: -23em;
+        margin-left: 67.5em;
+        z-index: 5;
+    }
+    .feature6 {
+        font-size: .9rem;
+        line-height: .9rem;
+        margin-top: -35em;
+        margin-left: 75em;
+        margin-right: 7em;
+        .content {
+            .title {
+                font-size: 2.5rem;
+                font-weight: 900;
+            }
+            .subtitle {
+                color: #de041c;
+                font-size: 3.5rem;
+                font-weight: 900;
+                margin-top: -.3em;
+            }
+            .description1 {
+                font-weight: 500;
+                margin-top: 6em;
+            }
+            .description2 {
+                font-weight: 500;
+                margin-top: 1.5em;
+            }
+            .description-red {
+                color: #de041c;
+                font-weight: 800;
+                margin-top: 1.5em;
+            }
+        }
+    }
+}
+
+section.embed-container {
+    position: absolute;
+    margin-top: -53em;
+    margin-left: 36.4em;
+    box-shadow: 0em 0em 1em;
+    z-index: 6;
 }
